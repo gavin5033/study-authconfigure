@@ -10,6 +10,8 @@ import com.ql.servicetest.ConditionalOnBeanDemo.Computer;
  * @ClassName ConditionTest @Description ConditionTest @Author stack @Version 1.0
  *
  * @since 2019/6/27 17:35
+ * 目标站csdn
+ * https://blog.csdn.net/qq_38366063/article/details/93913053
  */
 public class ConditionOnBeanTest extends BaseTest implements ApplicationContextAware {
 
@@ -22,7 +24,6 @@ public class ConditionOnBeanTest extends BaseTest implements ApplicationContextA
     System.out.println(JSON.toJSONString(beansOfType));
   }
 
-  @Override
   public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
     this.ApplicationContext = applicationContext;
   }
